@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube VIdeo
+
+        </title>
+        <body>
+            <video controls>
+                <source src="MysqlTest.mp4" id="myvideo"type="video/mp4" />
+                <source src="New Project.mp4" id="myvideo2" type="video/mp4">
+            </video>
+            <script>
+
+                var myvid = document.getElementById('myvideo');
+                myvid.addEventListener('play', (event)=>{
+                    var myvideo2 = getElementById('myvideo2');
+                    myvideo2.play();
+                })
+        </script>
+
+        </body>
+    </head>
+</html>
